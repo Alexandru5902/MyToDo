@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Navbar & Header -->
+<nav id="navbar-scroll" class="navigation padding-all bg-blue navigation-fixed">
+    <div class="nav-container">
+        <a href="#header" class="nav-logo">
+            <img class="logo" src="static/content/Horizontal-Color.svg">
+        </a>
+        <ul class="nav-list">
+            <div class="flex nav not-nav">
+                <li class="nav-item dropdown">
+                    <button onclick="myFunction()" class="dropbtn nav-link">Comenzi</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="analiza-discord.html">In asteptare</a>
+                        <a href="incepatori.html">Comenzi noi</a>
+                        <a href="intermediar.html">Comenzi terminate</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button onclick="myFunction()" class="dropbtn nav-link">Mesaje</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="analiza-discord.html">
+                            <img src="/static/content/tjmiles.webp" alt="picture-logo">
+                            <div class="message-bog flex row">
+                                <h5 class="username">username21</h5>
+                                <span>abia aștept să colaborăm...</span>
+                                <span class="hours-ago">Acum 69 de zile</span>
+                            </div>
+                        </a>
+                        <a href="incepatori.html">Comenzi noi</a>
+                        <a href="intermediar.html">Comenzi terminate</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href='#about' class="nav-link">Prestează servicii</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#services' class="nav-link">Promovează-te</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#portofolio' class="nav-link"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href='#contact' class="nav-link button">Login/sign up</a>
+                </li>
+            </div> 
+        </ul>
+        <div class="hamburger hamburger--spin fixed">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+    </div>
+</nav>   
+<!-- Todoer details in POV of profile user -->
+<section class="todoer-details padding-all">
+    <!-- Todoer profile -->
+    <div class="todoer-profile">
+       <!-- Todoer detail -->
+       <div class="todoer-detail todoer-padding flex">
+           <div class="todoer-profile-img">
+            <img src="Group 98.png" class="image-hatz" />
+           </div>
+           <div class="todoer-profile-row">
+            <div class="todoer-flexing-detail">
+                <div class="todoer-flex flex">
+                    <h1 class="title">Victor Prodan</h1>
+                    <a href='#' class="text-decoration">Editează</a>
+                </div>
+                <div class="todoer-flex flex margin-top">
+                    <h2 class="blue-color location"><i class="fas fa-map-marker-alt fa-mai-ancolo"></i> Târgoviște, Dâmbovița</h2>
+                    <h2 class="blue-color phone-number">0712 345 678</h2>
+                </div>
+            </div>
+            <div class="todoer-butons">
+                <button type="button" class="blue-btn-outline margin20">setari cont</button>
+                <button type="button" class="blue-btn-outline">public preview</button>
+            </div>
+           </div>
+       </div>
+        <!-- Todoer description -->
+        <div class="todoer-description todoer-padding">
+                <h2 class="title">Descriere <a href='#' class="text-decoration">Editează</a></h2>
+                <p class="first-para margin20 grey-color">Lorem ipsum</p>
+                <p class="second-para margin20 grey-color" >Dolor sit amet, consectetur adipiscing elit. Sed sit amet quam ante. Sed id quam at lectus molestie 
+                egestas sit amet et ipsum. Vivamus mollis odio nibh, eleifend ultrices elit interdum a. Nulla id laoreet odio, a maximus 
+                sapien. Donec sollicitudin pretium augue, nec bibendum quam placerat eu. Sed vel ex vestibulum, dapibus nisi vitae, 
+                elementum augue.</p>
+                <p class="third-para grey-color"> Ut at eugiat massa, non volutpat sapien. Pellentesque ac porttitor lacus.Quisque scelerisque malesuada 
+                sem ut vestibulum. Nunc sapien nisl, efficitur a pharetra sit amet, egestas eu est. Ut eget mi bibendum, feugiat mauris vel, 
+                semper nulla. Quisque hendrerit, odio nec maximus gravida, eros justo hendrerit nisi, ac imperdiet dui ante vitae ligula. Morbi 
+                porta ex id nulla semper, ac porttitor odio scelerisque.</p>
+        </div>
+       <!-- Todoer service -->
+       <div class="todoer-services todoer-padding">
+          <h2 class="title">Servicii prestate <a href='#' class="text-decoration">Editează</a></h2>
+          <div class="display-grid">
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+            <div class="card-grey">
+                <h6 class="card-grey-text">Nume Serviciu - 20lei/oră</h6>
+            </div>
+          </div>
+       </div>
+       <!-- Todoer images -->
+       <div class="todoer-images todoer-padding">
+          <h2 class="title">Fotografii cu munca ta</h2>
+          <div class="grid-columns">
+            <div class="item">
+                <img src="pexels-andrea-piacquadio-3811709.png" />
+            </div>
+            <div class="item">
+                <img src="pexels-luis-quintero-1575996.png" />
+            </div>
+            <div class="item">
+                <img src="pexels-luis-quintero-1575996.png" />
+            </div>
+            <div class="item">
+                <img src="pexels-andrea-piacquadio-3811709.png" />
+            </div>
+            <div class="item">
+                <img src="pexels-luis-quintero-1575996.png" />
+            </div>
+            <div class="item">
+                <img src="pexels-andrea-piacquadio-3811709.png" />
+            </div>
+          </div>
+       </div>
+    </div>
+</section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/owl.carousel.min.js"></script>
+<script src="/static/js/js.js"></script>
+</html>

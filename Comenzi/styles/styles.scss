@@ -1,0 +1,50 @@
+/* Styles */
+*{box-sizing:border-box;padding:0;margin:0;}
+html,body{overflow-x:hidden;font-family: 'Poppins', sans-serif;}
+.padding-all {padding:100px 200px;}
+.flex {display: flex;}
+.column {flex-direction: column; justify-content: center; align-items: center;}
+.column-left {flex-direction: column; justify-content: flex-start; align-items: flex-start;}
+.row {flex-direction: row; justify-content: space-between; align-items: flex-start;}
+.title-section{color:#002B63;font-size:35px;font-weight:550;}
+.title-link{color:#00B9FF;padding-left:35px;font-size:14px;}
+.service-title{color:#fff;font-weight:500;font-size:19px;}
+.no-existar{padding:200px 30px;}
+
+.comenzi{background-color:#F9F9F9;}
+.comenzi .comenzi-flex{display:flex;margin-top:27px;}
+.comenzi .comenzi-flex .comenzi-link{padding-right:30px;text-decoration:none;color:#00B9FF;font-weight:500;font-size:16px;}
+.comenzi .table{width:100%;margin-top:50px;box-shadow: 5px 7px 10px 2px rgba(0, 0, 0, 0.295);;border-top-left-radius:25px;border-top-right-radius:25px;
+border-bottom-right-radius:25px;border-bottom-left-radius:25px;}
+.comenzi .table .table-header{background-color:#002B63;width:100%;border-top-left-radius:25px;border-top-right-radius:25px;
+padding:20px 30px;}
+.comenzi .table .table-row.no-existar{padding:130px 30px;display:flex;align-items:center;justify-content:center;border-bottom-left-radius:25px;border-bottom-right-radius:25px;}
+.comenzi .table .table-header .header-item{width:25%;text-align:center;}
+.comenzi .table .table-header .header-item .table-title{color:#fff;font-weight:500;font-size:16px;}
+.comenzi .table .table-row{width:100%;background-color:#fff;}
+.comenzi .table .table-row.border-radius{border-bottom-left-radius:25px;border-bottom-right-radius:25px;}
+.comenzi .table .table-row .table-item{width:25%;text-align:center;border-bottom:2px solid #002B63;padding:15px 30px;align-items:center;display:flex;justify-content:center;}
+.comenzi .table .table-row .table-item.bl-yes{border-right:2px solid #002B63;}
+.comenzi .table .table-row .table-item.bt-no{border-bottom:0px;}
+.comenzi .table .table-text{color:#0092CB;font-weight:550;font-size:16px;} 
+.comenzi .table .table-header .header-item .table-text{color:#fff;}
+.comenzi .table .table-row .table-item .table-text{display:flex;align-items:center;}
+.comenzi .table .table-row .table-item .table-text .icons{margin-left:10px;}
+.comenzi .table .table-row .table-item .table-text .icons .corect{color:#32DC00;font-size:20px;}
+.comenzi .table .table-row .table-item .table-text .icons .wrong{color:#DC0000;font-size:20px;}
+.comenzi .table .table-row .table-item .box-username .user-img{border-radius:50%;width:45px;}
+
+@media only screen and (max-width:1200px) {
+    .comenzi .table .table-header{width:100%;border-top-left-radius:25px;border-top-right-radius:25px;padding:20px 30px;}
+    html,body{overflow-x:auto;font-family: 'Poppins', sans-serif;}
+    .comenzi{background-color:#F9F9F9;width:150%;}
+    .comenzi .table .table-row{width:100%;overflow-x:auto;}
+    .padding-all {padding:100px 50px;}
+    .title-section{font-size:25px;}
+    .comenzi .comenzi-flex .comenzi-link{font-size:12px;}
+}
+
+@media only screen and (max-width:600px){
+     .comenzi .table .table-header{width:200%;}
+     .comenzi .table .table-row{width:200%;overflow-x:auto;}
+}

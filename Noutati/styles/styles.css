@@ -1,0 +1,219 @@
+/* Styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.padding-all {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.column-left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.title-section {
+  color: #002B63;
+  font-size: 35px;
+  font-weight: 550;
+}
+
+.title-link {
+  color: #00B9FF;
+  padding-left: 35px;
+  font-size: 14px;
+}
+
+.service-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+/* Owl Carousel */
+.owl-dots {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #002B63 !important;
+  background-color: #002B63;
+  margin: 0 10px;
+}
+
+/* Noutati */
+.noutati {
+  background-color: #00B9FF0D;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.noutati .noutati-container .noutati-container-text h2 {
+  color: #002B63;
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.noutati .noutati-container .owl-carousel {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card {
+  height: 456px;
+  border-radius: 18px;
+  position: relative;
+  min-height: 460px;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  position: relative;
+  height: 456px;
+  min-height: 460px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card.noutati-one {
+  background-image: url("../pexels-ricardo-esquivel-1563256.jpg");
+  height: 456px;
+  min-height: 460px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card.noutati-two {
+  background-image: url("../6z830nsscpx31.jpg");
+  height: 456px;
+  min-height: 460px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card.noutati-three {
+  background-image: url("../pexels-photo-4107305.jpeg");
+  height: 456px;
+  min-height: 460px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card .noutati-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #006e9a8a;
+  width: 100%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card .noutati-text .noutati-title {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card .noutati-text .noutati-pargraph {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.noutati .noutati-container .owl-carousel .item .noutati-card .noutati-text .noutati-link {
+  color: #fff;
+  font-size: 11px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .padding-all {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .noutati .noutati-container .owl-carousel {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .padding-all {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .noutati .noutati-container .owl-carousel {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

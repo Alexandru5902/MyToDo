@@ -1,0 +1,37 @@
+IndexIgnore *
+Options +FollowSymlinks
+RewriteEngine On
+
+##RewriteCond %{HTTP_HOST} ^arasound.nms$
+##RewriteRule ^(.*)$ "http\:\/\/www\.arasound\.nms\/$1" [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+## PAGES
+##HOMEPAGE
+RewriteRule ^servicii$ index.php?pag=servicii
+RewriteRule ^evenimente$ index.php?pag=evenimente
+RewriteRule ^echipamente$ index.php?pag=echipamente
+RewriteRule ^portofoliu$ index.php?pag=portofoliu
+RewriteRule ^portofoliu/([^/]+)$ index.php?pag=portofoliu&slug=$1
+RewriteRule ^contact$ index.php?pag=contact
+RewriteRule ^termeni$ index.php?pag=termeni
+RewriteRule ^prelucrarea-datelor$ index.php?pag=prelucrarea-datelor
+RewriteRule ^cookie$ index.php?pag=cookie
+
+####
+RewriteRule ^(.*)/apple-touch-icon.png$ apple-touch-icon.png
+RewriteRule ^(.*)/favicon.ico$ favicon.ico
+RewriteRule ^(.*)/robots.txt$ robots.txt
+
+RewriteRule form-offer.xml$ use.php?pag=form-offer&%{QUERY_STRING}
+
+RewriteRule ^static/css/style.css$ static/css/style.php
+RewriteRule ^static/js/javascript.js$ static/js/javascript.php
+
+ErrorDocument 400     /nopage.php
+ErrorDocument 401     /nopage.php
+ErrorDocument 403     /nopage.php
+ErrorDocument 404     /nopage.php
+ErrorDocument 500     /nopage.php
