@@ -1,4 +1,4 @@
-<nav id="navbar-scroll" class="navigation padding-all">
+<nav id="navbar-scroll-blue" class="navigation bg-blue padding-all">
     <div class="nav-container">
         <a href="#header" class="nav-logo">
             <img class="logo" src="static/content/Horizontal-Color.svg">

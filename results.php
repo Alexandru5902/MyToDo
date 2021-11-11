@@ -4,7 +4,7 @@
 <?php require_once "design/dependecies.php"; ?>
 </head>
 <body>
-<?php require_once "design/nav-blue.php";?>
+<?php require_once "design/nav.php";?>
 <section class="results padding-all not-fullscreen flex column padding200 ">
     <div class="box-header width100 flex row">
         <form class="search-box flex1" action="#">

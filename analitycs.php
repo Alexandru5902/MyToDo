@@ -44,7 +44,7 @@
     <?php require_once "design/dependecies.php"; ?>
 </head>
 <body>
-<?php require_once "design/nav-blue.php";?>
+<?php require_once "design/nav.php";?>
 <section class="chart-container padding-all flex column not-fullscreen">
     <h2 class="title">Analytics</h2>
     <div id="curve_chart" style="width: 100%; height: 100%; min-height: 700px"></div>

@@ -4,7 +4,7 @@
 <?php require_once "design/dependecies.php"; ?>
 </head>
 <body>
-<?php require_once "design/nav-blue.php";?>
+<?php require_once "design/nav.php";?>
 <!-- Mesaje text -->
 <section class="mesaje padding-all not-fullscreen">
    <div class="mesaje-row">
