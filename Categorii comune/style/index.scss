@@ -1,0 +1,33 @@
+/* Styles */
+
+*{box-sizing:border-box;padding:0;margin:0;}
+html,body{overflow-x:hidden;font-family: 'Poppins', sans-serif;}
+.padding-all {padding-right:200px; padding-left: 200px;}
+.flex {display: flex;}
+.column {flex-direction: column; justify-content: center; align-items: center;}
+.column-left {flex-direction: column; justify-content: flex-start; align-items: flex-start;}
+.row {flex-direction: row; justify-content: space-between; align-items: flex-start;}
+.title-section{color:#002B63;font-size:35px;font-weight:550;}
+.title-link{color:#00B9FF;padding-left:35px;font-size:14px;}
+.service-title{color:#fff;font-weight:500;font-size:19px;}
+
+/* Categorii */
+.categorii .categori-container .categori-title{align-items:center;padding:50px 0;margin-bottom:40px;}
+.categorii .categori-container .owl-carousel .item .item-prop{background-size:cover;background-repeat:no-repeat;
+background-position:center;min-height:45vh;border-radius:30px;display:flex;align-items:initial;padding:20px 30px;}
+.categorii .categori-container .owl-carousel .item .item-prop.item-pexels1{background:linear-gradient(90deg, rgba(0, 0, 0, 0.336) 25%, rgba(0, 0, 0, 0.342) 50%, rgba(0, 0, 0, 0.322) 75%, rgba(0, 0, 0, 0.315) 100%),
+url("../pexels-photo-1254140.jpeg");background-size:cover;background-position:center;}
+.categorii .categori-container .owl-carousel .item .item-prop.item-pexels2{background:linear-gradient(90deg, rgba(0, 0, 0, 0.336) 25%, rgba(0, 0, 0, 0.342) 50%, rgba(0, 0, 0, 0.322) 75%, rgba(0, 0, 0, 0.315) 100%),
+url("../pexels-photo-4705634.jpeg");background-size:cover;background-position:center;}
+.categorii .categori-container .owl-carousel .item .item-prop.item-pexels3{background:linear-gradient(90deg, rgba(0, 0, 0, 0.336) 25%, rgba(0, 0, 0, 0.342) 50%, rgba(0, 0, 0, 0.322) 75%, rgba(0, 0, 0, 0.315) 100%),
+url("../pexels-photo-5989145.jpeg");background-size:cover;background-position:center;}
+.categorii .categori-container .owl-carousel .item .item-prop.item-pexels4{background:linear-gradient(90deg, rgba(0, 0, 0, 0.336) 25%, rgba(0, 0, 0, 0.342) 50%, rgba(0, 0, 0, 0.322) 75%, rgba(0, 0, 0, 0.315) 100%),
+url("../pexels-photo-3190541.jpeg");background-size:cover;background-position:center;}
+
+/* Media Queries */
+@media(max-width:1200px){
+    .padding-all {padding-right:60px; padding-left:60px;}
+    .categorii .categori-container .categori-title{align-items:center;padding:50px 0;margin-bottom:20px;}
+    .title-section{color:#002B63;font-size:25px;font-weight:550;}
+    .title-link{color:#00B9FF;padding-left:35px;font-size:14px;}
+}

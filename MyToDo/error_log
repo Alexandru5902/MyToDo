@@ -1,0 +1,74 @@
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:09:59 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:26 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:26 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:27 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:27 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:10:27 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:10:27 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:11:01 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:14:33 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:18:31 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:18:31 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:18:32 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:18:32 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 18:18:32 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 18:18:32 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:28 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:28 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:28 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:28 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:29 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:29 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:29 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:29 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:36 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:36 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:36 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:36 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:44 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:44 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:45 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:45 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:46 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:46 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 19:03:47 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 19:03:47 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:17 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:17 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:20 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:34 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:34 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gscdev/public_html/include/classes/mysqli.php on line 13
+[08-Oct-2021 21:23:35 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gscdev/public_html/include/classes/mysqli.php on line 17

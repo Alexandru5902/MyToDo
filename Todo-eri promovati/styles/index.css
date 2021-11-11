@@ -1,0 +1,220 @@
+/* Styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.padding-all {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.column-left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* To do-eri */
+.todoeri-container-text {
+  padding: 50px 0;
+  margin-bottom: 40px;
+}
+
+.todoeri-container-text h2 {
+  color: #002B63;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card {
+  background-color: #00A8E9;
+  color: #fff;
+  height: 560px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img {
+  height: 250px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: relative;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img.img-tri {
+  background-image: url("../pexels-photo-1526814.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img.img-one {
+  background-image: url("../pexels-photo-9801242.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img.img-two {
+  background-image: url("../pexels-photo-1516680.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img.img-three {
+  background-image: url("../pexels-photo-3990301.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img .item-text {
+  background-color: #002B63;
+  width: 122px;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 12px 0px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-img .item-text h6 {
+  color: #00B9FF;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text {
+  padding: 15px 24px;
+  position: relative;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .item-card-stars {
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .item-card-stars i {
+  color: yellow;
+  padding-right: 5px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .item-card-stars h6 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .location {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .location i {
+  padding-right: 10px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .services {
+  margin-top: 18px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .services .service-item {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-card-text .services .service-item i {
+  padding-right: 10px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-promovat {
+  position: absolute;
+  bottom: 0;
+  background-color: #002B63;
+  width: 122px;
+  border-bottom-left-radius: 25px;
+  text-align: center;
+  padding: 15px 10px;
+  border-top-right-radius: 25px;
+}
+
+.todoeri .todoeri-container .owl-carousel .item .item-card .item-promovat h5 {
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .padding-all {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .todoeri .todoeri-container .owl-carousel .item .item-card {
+    height: 600px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

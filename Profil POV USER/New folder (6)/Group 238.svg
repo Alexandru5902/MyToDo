@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="34" viewBox="0 0 115 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="16.587" height="16.587" transform="translate(0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_238" data-name="Group 238" transform="translate(-835 -831)">
+    <rect id="Rectangle_176" data-name="Rectangle 176" width="115" height="34" rx="17" transform="translate(835 831)" fill="#ffdbdb"/>
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="13.73" cy="13.73" r="13.73" transform="translate(838.27 834.272)" fill="#e25544"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(843.707 839.709)" clip-path="url(#clip-path)">
+      <g id="search" transform="translate(0)">
+        <path id="Path_42" data-name="Path 42" d="M3.676,12.051,3.1,14.207l-2.11.045A8.308,8.308,0,0,1,.927,6.507h0l1.879.344.823,1.867a4.949,4.949,0,0,0,.047,3.332Z" transform="translate(0 -2.028)" fill="#fff"/>
+        <path id="Path_43" data-name="Path 43" d="M20.278,9.8a8.29,8.29,0,0,1-2.956,8.017h0l-2.366-.121L14.62,15.6a4.943,4.943,0,0,0,2.127-2.524H12.312V9.8h7.966Z" transform="translate(-3.837 -3.053)" fill="#fff"/>
+        <path id="Path_44" data-name="Path 44" d="M13.932,19.3h0a8.3,8.3,0,0,1-12.5-2.537l2.688-2.2a4.932,4.932,0,0,0,7.108,2.525Z" transform="translate(-0.447 -4.537)" fill="#fff"/>
+        <path id="Path_45" data-name="Path 45" d="M14.007,1.909l-2.687,2.2A4.932,4.932,0,0,0,4.049,6.691l-2.7-2.212h0a8.3,8.3,0,0,1,12.66-2.57Z" transform="translate(-0.42)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Gmail" transform="translate(878 852)" fill="#e25544" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Gmail</tspan></text>
+  </g>
+</svg>
